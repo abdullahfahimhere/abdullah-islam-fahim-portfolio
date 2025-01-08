@@ -7,6 +7,13 @@
     "wdth" 100;
 }
 /* shared style */
+.text-center{
+    text-align:center;
+    
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
 color:#FD6E0A;
 }
@@ -24,16 +31,30 @@ color:#FD6E0A;
     border-radius: 5px;
     /* border-color: rgb(0, 0, 0); */
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
-    font-size 20px;;
-
+    font-size 20px;
 }
+.section-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #181818;
+    line-height: 1.5;
+    /* margin-bottom: 10px; */
+}
+.section-description{
+    font-size: 12px;
+    color: #757575;
+    /* margin-bottom: 15px; */
+    line-height: 1.6;
+    padding-bottom: 10px;
+}
+
+
 /* Nav Styles */
 nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin: 0px 48px ;
-    
+    margin: 0px 48px ;  
 }
 
 nav ul{
@@ -87,4 +108,98 @@ width: 414;
 
 .banner-content{
     max-width: 580px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 93px 111px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content:space-around;   
+}
+.item-description{
+    font-weight: 700;
+    font-size: small;
+    
+
+}
+
+/* main style */
+.main{
+    max-width:809px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 93px;
+    margin-bottom: 93px;
+}
+
+/* skills section  styles*/
+.skills-container{
+    display: flex;
+    gap: 17px;
+}
+.skill{
+    padding: 21px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 35px 0px #fd6f0ad1;
+}
+/* Resume Section style */
+/* .resume-container > div {
+    flex: 1;
+} */
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 21px;
+    
+
+}
+
+.experience-sub-title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+  
+
+}
+.experience-title{
+    margin-bottom: 7px;
+    color:#474747;
+
+}
+.resume hr{
+    margin: 21px 2px;
+}
+.resume-download-cv{
+    margin-top: 35px;
+}
+.resume-column-title{
+    color:#474747;
+}
+/* Footer Styles */
+footer{
+    padding: 92px 163px;
+    display: flex;
+    gap:83px;
+}
+.footer-column{
+    width:50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+ height: 45px; 
+ border-radius:3px; 
+ background-color:white;
+ display: block;
+ width: 100%;
+ padding: 7px 14px;
+ margin-bottom: 24px;
+ border: none;
 }
